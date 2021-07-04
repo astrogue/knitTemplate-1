@@ -17,9 +17,6 @@
       "Assets": {
         "$ignoreUnknownInstances": true,
         "$path": "lib/Assets"
-      },
-      "Replica": {
-        "$path": "lib/ReplicaService/src/ReplicatedStorage"
       }
     },
     "ServerScriptService": {
@@ -27,9 +24,6 @@
       "Game": {
         "$className": "Folder",
         "$path": "src/Game/Server"
-      },
-      "Replica": {
-        "$path": "lib/ReplicaService/src/ServerScriptService"
       }
     },
     "StarterPlayer": {

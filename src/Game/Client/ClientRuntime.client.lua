@@ -10,9 +10,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Knit: Knit = require(ReplicatedStorage.Knit)
 local Component = require(Knit.Util.Component)
 
--- Load ReplicaController:
-Knit.ReplicaController = require(ReplicatedStorage:WaitForChild("Replica"):WaitForChild("ReplicaController"))
-
 -- Populate Knit:
 Knit.Assets = ReplicatedStorage:WaitForChild("Assets")
 Knit.Shared = ReplicatedStorage.Game.Shared
