@@ -21,8 +21,6 @@ Knit.AddControllersDeep(script.Parent.Controllers)
 Component.Auto(script.Parent.Components)
 
 -- Start Knit:
-Knit.Start():Then(function()
-    Knit.ReplicaController.RequestData()
-end):Catch(function(err)
+Knit.Start():Catch(function(err)
     warn("Knit framework failure: " .. tostring(err))
 end)
