@@ -1,3 +1,6 @@
 [submodule "lib/Knit"]
 	path = lib/Knit
 	url = https://github.com/Sleitnick/Knit
+[submodule "lib/Comms"]
+	path = lib/Comms
+	url = https://github.com/EncodedVenom/knit-comms-module

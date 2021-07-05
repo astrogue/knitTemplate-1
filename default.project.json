@@ -23,7 +23,13 @@
       "$className": "ServerScriptService",
       "Game": {
         "$className": "Folder",
-        "$path": "src/Game/Server"
+        "$path": "src/Game/Server",
+        "Modules": {
+          "$className": "Folder",
+          "Comm": {
+            "$path": "lib/Comms/src/Comm.lua"
+          }
+        }
       }
     },
     "StarterPlayer": {
@@ -32,7 +38,13 @@
         "$className": "StarterPlayerScripts",
         "Game": {
           "$className": "Folder",
-          "$path": "src/Game/Client"
+          "$path": "src/Game/Client",
+          "Modules": {
+            "$className": "Folder",
+            "Comm": {
+              "$path": "lib/Comms/src/Comm.lua"
+            }
+          }
         }
       }
     }
