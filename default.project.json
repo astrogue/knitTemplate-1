@@ -26,8 +26,8 @@
         "$path": "src/Game/Server",
         "Modules": {
           "$className": "Folder",
-          "Comm": {
-            "$path": "lib/Comms/src/Comm.lua"
+          "RemoteComponent": {
+            "$path": "lib/RemoteComponent/src/RemoteComponent.lua"
           }
         }
       }
@@ -41,8 +41,8 @@
           "$path": "src/Game/Client",
           "Modules": {
             "$className": "Folder",
-            "Comm": {
-              "$path": "lib/Comms/src/Comm.lua"
+            "RemoteComponent": {
+              "$path": "lib/RemoteComponent/src/RemoteComponent.lua"
             }
           }
         }
