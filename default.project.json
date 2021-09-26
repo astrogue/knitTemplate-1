@@ -27,7 +27,7 @@
         "Modules": {
           "$className": "Folder",
           "RemoteComponent": {
-            "$path": "lib/RemoteComponent/src/RemoteComponent.lua"
+            "$path": "lib/RemoteComponent/default.project.json"
           }
         }
       }
@@ -42,7 +42,7 @@
           "Modules": {
             "$className": "Folder",
             "RemoteComponent": {
-              "$path": "lib/RemoteComponent/src/RemoteComponent.lua"
+              "$path": "lib/RemoteComponent/default.project.json"
             }
           }
         }
